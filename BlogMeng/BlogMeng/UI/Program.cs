@@ -1,10 +1,11 @@
-﻿using System;
+﻿using ConsoleApp1.AppLogic;
+using System;
 
 namespace ConsoleApp1.UI
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("/Register");
             Console.WriteLine("/Login");
@@ -45,7 +46,7 @@ namespace ConsoleApp1.UI
                 {
                     Console.WriteLine("Command is not correct");
                 }
-            } 
+            }
         }
     }
 }
